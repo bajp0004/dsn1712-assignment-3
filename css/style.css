@@ -1,0 +1,16 @@
+header {
+  background-color: #000;
+  color: #fff; 
+}
+
+.wrapper {
+  max-width: 940px;
+  align-items: center;
+  display:flex;
+  justify-content: space-between;
+}
+
+nav li{
+  display: inline;
+  justify-content: space-between;
+}
