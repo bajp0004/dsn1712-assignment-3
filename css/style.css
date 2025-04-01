@@ -14,3 +14,24 @@ nav li{
   display: inline;
   justify-content: space-between;
 }
+
+#hero {
+  height: 600px;
+  background-image: url(../images/hands-typing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: grayscale(70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero h1{
+  max-width: 60%;
+  background-color: rgba(0,0,0,0.5);
+  color:#fff;
+  text-shadow: 5px;
+  text-align: center;
+}
+
