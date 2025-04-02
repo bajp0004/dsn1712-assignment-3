@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 header {
   background-color: #000;
   color: #fff; 
@@ -31,7 +35,21 @@ nav li{
   max-width: 60%;
   background-color: rgba(0,0,0,0.5);
   color:#fff;
-  text-shadow: 5px;
+  text-shadow: 1px 1px black;
   text-align: center;
 }
 
+#about-me .wrapper{
+  max-width: 940px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+#about-me .text {
+  align-self: space-between;
+}
+
+#about-me .image {
+  align-self: flex-end;
+}
