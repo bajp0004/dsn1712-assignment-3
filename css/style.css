@@ -20,6 +20,7 @@ header .wrapper {
   display: flex;
   justify-content: space-between;
   margin: auto;
+  padding: 1em;
 }
 
 nav li {
@@ -53,6 +54,7 @@ nav li {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2,1fr);
+  padding: 1em;
 }
 
 #about-me .text {
@@ -66,6 +68,7 @@ nav li {
 #services .wrapper {
   max-width: 940px;
   margin: auto;
+  padding: 1em;
 }
 
 #services {
@@ -109,6 +112,7 @@ a:hover {
 #work .wrapper {
   max-width: 940px;
   margin: auto;
+  padding: 1em;
 }
 
 #work h2, #work p {
@@ -150,4 +154,11 @@ a:hover {
 
 .images img:nth-child(5){
   grid-area: div5;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
 }
