@@ -1,5 +1,12 @@
-*{
+
+* {
   box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4;
 }
 
 header {
@@ -7,14 +14,15 @@ header {
   color: #fff; 
 }
 
-.wrapper {
+header .wrapper {
   max-width: 940px;
   align-items: center;
-  display:flex;
+  display: flex;
   justify-content: space-between;
+  margin: auto;
 }
 
-nav li{
+nav li {
   display: inline;
   justify-content: space-between;
 }
@@ -29,6 +37,7 @@ nav li{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 
 #hero h1{
@@ -39,17 +48,69 @@ nav li{
   text-align: center;
 }
 
-#about-me .wrapper{
+#about-me .wrapper {
   max-width: 940px;
-  justify-content: center;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(2,1fr);
 }
 
 #about-me .text {
-  align-self: space-between;
+  align-self: center;
 }
 
 #about-me .image {
   align-self: flex-end;
+}
+
+#services .wrapper {
+  max-width: 940px;
+  margin: auto;
+}
+
+#services {
+  background-color: #fafafa;
+}
+
+#services h2 {
+  max-width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+#services .grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 40px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+article a{
+  margin: auto;
+  padding: 1em;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border: 2px #000;
+  border-radius: 4px;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 4px;
+}
+
+#work .wrapper {
+  max-width: 940px;
+  margin: auto;
+}
+
+#work h2,p {
+  max-width: 60%;
 }
