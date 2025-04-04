@@ -73,7 +73,7 @@ nav li {
 }
 
 #services h2 {
-  max-width: 60%;
+  max-width: 100%;
   margin: auto;
   text-align: center;
 }
@@ -111,6 +111,43 @@ a:hover {
   margin: auto;
 }
 
-#work h2,p {
-  max-width: 60%;
+#work h2, #work p {
+  max-width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+#work .images {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: 
+  "div1 div1 div1 div2 div2 div2"
+  "div3 div3 div4 div4 div5 div5";
+}
+
+.images img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.images img:nth-child(1){
+  grid-area: div1;
+}
+
+.images img:nth-child(2){
+  grid-area: div2;
+}
+
+.images img:nth-child(3){
+  grid-area: div3;
+}
+
+.images img:nth-child(4){
+  grid-area: div4;
+}
+
+.images img:nth-child(5){
+  grid-area: div5;
 }
